@@ -1,0 +1,25 @@
+.cardcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:20px 0px;
+}
+.apicard{
+    width:300px;
+    background-color:#FABB05;
+    padding:20px;
+    margin:10px;
+    border:solid 3px rosybrown;
+    box-shadow:5px 5px 5px #333;
+}
+.apicard h2{
+    color:#333;
+}
+.apicard h3{
+   margin:10px 0px;
+   color:rgb(85, 30, 30);
+}
+.apicard p{
+    color:saddlebrown;
+}
